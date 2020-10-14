@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
-  constructor() {}
+  btnClicked(){
+    console.log('btn clicked')
+  }
 
 }

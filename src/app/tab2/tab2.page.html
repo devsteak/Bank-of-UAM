@@ -1,17 +1,38 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+<ion-card>
+  <ion-header>
     <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
+      <ion-buttons slot="start">
+        <ion-back-button></ion-back-button>
+      </ion-buttons>
+      <ion-title>EXTRATO</ion-title>
+     <ion-content padding> 
+    <ion-label>
+      {{currentDate}}
+    </ion-label>
+
+     </ion-content>
+      <ion-card>
+        <ion-card-header>
+          17/10/2020
+        </ion-card-header>
+        <ion-card-content >
+          R$ +6.000,00
+        </ion-card-content>
+        <ion-card-header>
+          01/02/2020
+        </ion-card-header>
+        <ion-card-content>
+          R$ +1.590,00
+        </ion-card-content>
+        <ion-card-header>
+          15/10/2019
+        </ion-card-header>
+        <ion-card-content>
+          R$ +4.359,00
+        </ion-card-content>
+        
+      </ion-card>
+  
     </ion-toolbar>
   </ion-header>
-
-  <app-explore-container name="Tab 2 page"></app-explore-container>
-</ion-content>
+</ion-card>
